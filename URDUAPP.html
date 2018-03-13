@@ -254,12 +254,20 @@
     </div>
 
        
+
+<script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
 <script>
-        
-      
-        
-    
-    </script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCOgJeuNObKoZu25xzYWDwP_pJLYNCjhtM",
+    authDomain: "urdu-phonics.firebaseapp.com",
+    databaseURL: "https://urdu-phonics.firebaseio.com",
+    projectId: "urdu-phonics",
+    storageBucket: "urdu-phonics.appspot.com",
+    messagingSenderId: "302533624277"
+  };
+  firebase.initializeApp(config);
+</script>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
